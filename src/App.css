@@ -22,3 +22,11 @@ nav > div{
   align-items: center;
   justify-content: center;
 }
+nav.navbar{
+  position: sticky;
+  top: 0;
+}
+nav.navdrawer{
+  position: sticky;
+  bottom: 0;
+}
