@@ -1,9 +1,11 @@
-/* #root {
-  max-width: 1280px;
+ #root {
+  /* max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
-} */
+  text-align: center; */
+  background-color: #f1f4f7;
+  color: #b0b9c5;
+} 
 
 
 nav{
@@ -29,4 +31,18 @@ nav.navbar{
 nav.navdrawer{
   position: sticky;
   bottom: 0;
+}
+/* timefilter */
+div.time-filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+
+}
+.time-filter .active{
+  color: #fff;
+  background-color: #b0b9c5;
+  padding: 10px 20px;
+  border-radius: 50px;
 }
