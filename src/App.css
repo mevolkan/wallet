@@ -1,48 +1,98 @@
  #root {
-  /* max-width: 1280px;
+   /* max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center; */
-  background-color: #f1f4f7;
-  color: #b0b9c5;
-} 
+   background-color: #f1f4f7;
+   color: #b0b9c5;
+ }
 
 
-nav{
-  background-color: #fff;
-  color: #4b5968;
-  display: flex;
-  justify-content: space-between;
-  width: 414px;
-  margin: 0 auto;
-} 
-nav > svg{
-  padding: 10px;
-}
-nav > div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-nav.navbar{
-  position: sticky;
-  top: 0;
-}
-nav.navdrawer{
-  position: sticky;
-  bottom: 0;
-}
-/* timefilter */
-div.time-filter{
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-  align-items: center;
+ nav {
+   background-color: #fff;
+   color: #4b5968;
+   display: flex;
+   justify-content: space-between;
+   width: 384px;
+   margin: 0 auto;
+   padding: 10px 20px;
+ }
 
-}
-.time-filter .active{
-  color: #fff;
-  background-color: #b0b9c5;
-  padding: 10px 20px;
-  border-radius: 50px;
-}
+ nav>svg {
+   padding: 10px;
+ }
+
+ nav>div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+ }
+
+ nav.navbar {
+   position: sticky;
+   top: 0;
+ }
+
+ nav.navdrawer {
+   position: sticky;
+   bottom: 0;
+ }
+
+ /* timefilter */
+ div.time-filter {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 20px;
+   align-items: center;
+
+ }
+
+ .time-filter .active {
+   color: #fff;
+   background-color: #b0b9c5;
+   padding: 10px 20px;
+   border-radius: 50px;
+ }
+
+ .buysell {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 10px 20px;
+ }
+
+ .buysell .button-container {
+   background-color: #fff;
+   padding: 20px;
+   /* margin: 10px 20px; */
+   border-radius: 10px;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .button-container span {
+   border-radius: 20px;
+   color: #4d5b6a;
+ }
+
+ .button-container .icon {
+   width: 40px;
+   height: 40px;
+   display: block;
+   color: #fff;
+ }
+
+ .button-container .icon svg {
+   padding: 20px;
+ }
+
+ .buy .icon {
+   background-color: #1494f5;
+ }
+ .sell .icon{
+  background-color: #fc3398;
+ }
