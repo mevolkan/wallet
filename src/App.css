@@ -26,7 +26,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   
+
  }
 
  nav.navbar {
@@ -94,11 +94,31 @@
  .buy .icon {
    background-color: #1494f5;
  }
- .sell .icon{
-  background-color: #fc3398;
+
+ .sell .icon {
+   background-color: #fc3398;
  }
- .shadow{
-  -webkit-box-shadow: 10px 10px 20px 24px rgba(154,155,176,0.17);
-  -moz-box-shadow: 10px 10px 20px 24px rgba(154,155,176,0.17);
-  box-shadow: 10px 10px 20px 24px rgba(154,155,176,0.17);
+
+ .shadow {
+   -webkit-box-shadow: 10px 10px 20px 24px rgba(154, 155, 176, 0.17);
+   -moz-box-shadow: 10px 10px 20px 24px rgba(154, 155, 176, 0.17);
+   box-shadow: 10px 10px 20px 24px rgba(154, 155, 176, 0.17);
+ }
+
+ .currency-container {
+   background-color: #fff;
+   margin: 10px 20px;
+   padding: 10px 20px;
+   border-radius: 10px;
+ }
+
+ .currency-container .header {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .currency-container .header div {
+   display: flex;
+   gap: 20px;
+   align-items: center;
  }

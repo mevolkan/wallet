@@ -6,14 +6,15 @@ library.add(faBitcoinSign);
 
 export default function Currency() {
     return (
-        <div className='currency-container'>
+        <div className='shadow currency-container'>
             <div className='header'>
                 <div>
                     <FontAwesomeIcon icon={faBitcoinSign} />
                     <span>Bitcoin</span>
                 </div>BTC</div>
             <div>
-                <span>Bitcoin Wallet</span>
+                <div className='currency-amt'>Bitcoin Wallet</div>
+                <div className='currency-value'>Bitcoin Wallet <span className='rate'>-2.32%</span></div>
             </div>
         </div>
     )
