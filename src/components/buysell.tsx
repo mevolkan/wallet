@@ -7,11 +7,11 @@ library.add(faDollarSign);
 export default function BuySell() {
   return (
     <div className='buysell'>
-      <div className='buy button-container'>
+      <div className='buy button-container shadow'>
         <span className='icon'><FontAwesomeIcon icon={faDollarSign} /></span>
         <span>Buy BTC</span>
       </div>
-      <div className='sell button-container'>
+      <div className='sell button-container shadow'>
         <span className='icon'><FontAwesomeIcon icon={faDollarSign} /></span>
         <span>Sell BTC</span>
       </div>
